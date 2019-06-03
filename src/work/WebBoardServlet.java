@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@SuppressWarnings("serial")
 public class WebBoardServlet extends HttpServlet {
 	/**
 	 * GETリクエストで呼ばれる処理
@@ -31,10 +30,10 @@ public class WebBoardServlet extends HttpServlet {
 		out.println("    <!-- h1 {text-align: center; background: lime; } -->");
 		out.println("  </style>");
 		out.println("  <meta charset=\"UTF-8\">");
-		out.println("  <title>IT基礎研修掲示板</title>");
+		out.println("  <title>新卒研修掲示板</title>");
 		out.println("</heda>");
 		out.println("<body>");
-		out.println("  <h1>IT基礎研修掲示板</h1>");
+		out.println("  <h1>新卒研修掲示板</h1>");
 		out.println("  <form action=\"./\" method=\"post\">");
 		out.println("    <input type=\"text\" name=\"name\" placeholder=\"name\" required></br>");
 		out.println(
